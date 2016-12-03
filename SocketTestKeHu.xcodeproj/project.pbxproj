@@ -15,6 +15,7 @@
 		A00EF1381DF1566A00C818A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EF1361DF1566A00C818A0 /* LaunchScreen.storyboard */; };
 		A00EF1431DF1566A00C818A0 /* SocketTestKeHuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF1421DF1566A00C818A0 /* SocketTestKeHuTests.m */; };
 		A00EF14E1DF1566A00C818A0 /* SocketTestKeHuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF14D1DF1566A00C818A0 /* SocketTestKeHuUITests.m */; };
+		A00EF15D1DF1567D00C818A0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A00EF15C1DF1567D00C818A0 /* GCDAsyncSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A00EF1491DF1566A00C818A0 /* SocketTestKeHuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketTestKeHuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A00EF14D1DF1566A00C818A0 /* SocketTestKeHuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketTestKeHuUITests.m; sourceTree = "<group>"; };
 		A00EF14F1DF1566A00C818A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A00EF15B1DF1567D00C818A0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A00EF15C1DF1567D00C818A0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		A00EF1271DF1566900C818A0 /* SocketTestKeHu */ = {
 			isa = PBXGroup;
 			children = (
+				A00EF15B1DF1567D00C818A0 /* GCDAsyncSocket.h */,
+				A00EF15C1DF1567D00C818A0 /* GCDAsyncSocket.m */,
 				A00EF12B1DF1566900C818A0 /* AppDelegate.h */,
 				A00EF12C1DF1566900C818A0 /* AppDelegate.m */,
 				A00EF12E1DF1566900C818A0 /* ViewController.h */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00EF15D1DF1567D00C818A0 /* GCDAsyncSocket.m in Sources */,
 				A00EF1301DF1566900C818A0 /* ViewController.m in Sources */,
 				A00EF12D1DF1566900C818A0 /* AppDelegate.m in Sources */,
 				A00EF12A1DF1566900C818A0 /* main.m in Sources */,
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocketTestKeHu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.SocketTestKeHu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocketTestKeHu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanmi.SocketTestKeHu;
 				PRODUCT_NAME = "$(TARGET_NAME)";

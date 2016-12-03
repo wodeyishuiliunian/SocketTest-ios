@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property(nonatomic, strong)IBOutlet UITextField * portText;
+@property(nonatomic, strong)IBOutlet UITextField * IPText;
+@property(nonatomic, strong)IBOutlet UITextField * sendMsgText;
+@property(nonatomic, strong)IBOutlet UITextView  * readMsgText;
 
 @end
 
